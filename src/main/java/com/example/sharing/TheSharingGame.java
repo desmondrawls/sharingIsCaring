@@ -57,6 +57,7 @@ class Toddler {
     void receive(Toy toy){
         toy.owner = this;
         if(Mood.Happy.equals(mood)){
+            System.out.println("playing");
             toy.play();
         } else if (Mood.Insane.equals(mood)){
             toy.destroy();
