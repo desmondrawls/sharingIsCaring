@@ -27,20 +27,6 @@ public class SharingIsCaringApplication {
 		leila.iHateSharing(turn);
 		daddy.beFair();
 
-        ZoneDefense daddyZone = new ZoneDefense(daddy, leila);
-        ZoneDefense mommyZone = new ZoneDefense(mommy, ezra);
-        daddyZone.play();
-        mommyZone.play();
-        daddyZone.meltdown();
-        mommyZone.play();
-        daddyZone.play();
-        daddyZone.recover();
-        daddyZone.play();
-        mommyZone.play();
-        mommyZone.meltdown();
-        mommyZone.recover();
-
-
 		System.out.println("TURN: " + turn.current);
 		System.out.println("LEILA'S MOOD: " + leila.mood);
 		System.out.println("EZRA'S MOOD: " + ezra.mood);
@@ -50,3 +36,31 @@ public class SharingIsCaringApplication {
 		System.out.println("BIKE DAMAGE: " + bike.damage);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//	ZoneDefense daddyZone = new ZoneDefense(daddy, leila);
+//	ZoneDefense mommyZone = new ZoneDefense(mommy, ezra);
+//  daddyZone.play();
+//	mommyZone.play();
+//	daddyZone.meltdown();
+//	mommyZone.play();
+//	daddyZone.play();
+//	daddyZone.recover();
+//	daddyZone.play();
+//	mommyZone.play();
+//	mommyZone.meltdown();
+//	mommyZone.recover();
